@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "trafficvisionai",
+  "version-string": "0.1.0",
+  "description": "Sistema de vision artificial para el analisis de escenas de trafico.",
+  "dependencies": [
+    "opencv4"
+  ],
+  "builtin-baseline": "7e43e0768a5af180a9cf75d87d692dce1b9da34f"
+}

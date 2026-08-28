@@ -427,3 +427,27 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# ---------------------------------------------------------------------------
+# TrafficVisionAI - artefactos locales de CMake y vcpkg
+# ---------------------------------------------------------------------------
+
+# Directorios de compilacion locales
+build/
+[Bb]uild/
+out/
+
+# Cache y archivos generados por CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+*.cmake.stamp
+
+# Presets locales del usuario (CMakePresets.json SI debe versionarse)
+CMakeUserPresets.json
+
+# Dependencias instaladas por vcpkg en modo manifiesto
+vcpkg_installed/
+vcpkg-manifest-install.log
